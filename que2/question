@@ -1,0 +1,12 @@
+2-) Isogram
+Bir izogram, tekrar eden bir harfi olmayan bir kelime veya cümle için kullanılan lojistik bir terimdir.
+Algoritmamız ise girilen bir kelimenin isogram olup olmadığına dair, True veya False dönüşü yapacaktır. Bunu yaparken yanında da tekrarlanan harflerin hangileri olduğu ve bunların kaç defa tekrarlandığını yazacaktır. 
+Kelime tamamen küçük harflerden oluşacaktır.
+
+Örnek Input:
+moose
+
+Output:
+False
+o : 2
+

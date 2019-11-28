@@ -1,0 +1,13 @@
+3-) Bit Sayalım
+Binary (İkili) Sayı sisteminin tabanı 2’ dir. Ve bu sistemde sadece “0” ve “1” rakamları kullanılmaktadır. Binary (ikili) Sayı sisteminde bulunan her ‘0’ veya ‘1’ rakamları BIT (Binary Digit) adı ile tanımlanır. Decimal (onlu) sayıları, sadece iki rakamdan oluşan Binary (ikili) sayılarla tanımlayabilmek, sayısal sistemlerin iki voltaj seviyesini kullanarak farklı büyüklüklerin tanımlanmasının anlaşılmasını sağlamaktadır.
+
+Programımız bir decimal sayıyı input olarak alacak ve bu sayının binary dönüşümünü yazacaktır.
+Ek olarak bu binary sayı içinde kaç bit yüksek voltaj (yani 1) değerine sahip olduğunu da yazacaktır.
+
+Örnek Input:
+55
+
+Output:
+110111
+5
+

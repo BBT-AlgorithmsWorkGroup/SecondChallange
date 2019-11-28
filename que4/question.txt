@@ -1,0 +1,17 @@
+4-) Çiftlerin Toplamı
+Programımız “,” ile ikiye bir input alacaktır, bu girdinin ilk kısmı (virgülden önceki kısmı) boşluklar ile ayrılmış sayılardan oluşacak, sağ tarafı ise tek bir sayıdan oluşacaktır.
+Amaç, soldaki herhangi iki sayının toplamı sağdaki sayıya eşit olup olmadığını bulmaktır. Bulunduğunda ise indeksleri ekrana yazdırılacaktır.
+
+Örnek Input:
+11 3 7 5, 10
+
+Output:
+1,2
+
+Örnek Input:
+4 3 2 3 4, 6
+
+Not: Bu örnekte 6 yı elde edebileceğimiz bir kaç yol vardır, ( [0,2], [1,3], [2,4] ) gibi, ancak ilkini yazdırmanız yeterlidir.
+Output:
+0,2
+

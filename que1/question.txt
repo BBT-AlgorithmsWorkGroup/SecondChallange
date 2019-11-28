@@ -1,0 +1,17 @@
+A ve B kaplumbağaları yarış yapmak istemektedir. Ancak A kaplumbağası X hızı ile B kaplumbağasının Y hızından daha hızlı olduğunu bildiği için, yarışa daha geç başlamakta bir sakınca görmemektedir. Bizim sorumuz ise saat başına adım sayısı verilen iki kaplumbağadan B kaplumbağası Z adım önde iken A kaplumbağası onu ne kadar süre sonra yakalar. Bu süreyi [saat,dakika,saniye] olarak bir dizi de yazdırınız. 
+
+Kısaca, program 3 input alacaktır. (X,Y,Z)
+X > 0 integer, A kaplumbağasının saatlik adım sayısı
+Y > 0 integer, B kaplumbağasının saatlik adım sayısı
+Z > 0 integer, A kaplumbağası yarışa başladığında B kaplumbağasının adım cinsinden uzaklığı
+
+Eğer B kaplumbağası A kaplumbağasından daha hızlı ise [-1, -1, -1] output veriniz.
+ 
+Örnek Input:
+
+850, 720, 70
+
+Output: [saati dakika, saniye]
+
+[0, 32, 18]
+
