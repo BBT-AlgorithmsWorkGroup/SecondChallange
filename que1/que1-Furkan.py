@@ -5,7 +5,7 @@ step = int(float(input("Please enter the number of steps: ")))
 def TurtleRacing():
     global speed_a, speed_b, step
     if speed_a > speed_b:
-        time = (step / (speed_b - spB)) * 3600
+        time = (step / (speed_a - speed_b)) * 3600
         second = time % 60
         minute = time // 60
         hour = 0
@@ -16,7 +16,7 @@ def TurtleRacing():
     else:
         return [-1,-1,-1]
 
-if spA == "" and spB == "" and step == "":
+if speed_a == "" and speed_b == "" and step == "":
     print("Please enter an int value!")
 else:
     print(TurtleRacing())
